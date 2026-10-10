@@ -3,98 +3,53 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfolio - Eloïme</title>
+    <title>Pour mon Alpha💖</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body> 
-    <header>
-        <nav>
-            <h2>Eloïme</h2>
-            <button id="menuBtn" aria-label="Ouvrir le menu">☰</button>
-            <ul>
-                <li><a href="#accueil">Accueil</a></li>
-                <li><a href="#apropos">À propos</a></li>
-                <li><a href="#competences">Compétences</a></li>
-                <li><a href="#projets">Projets</a></li>
-                <li><a href="#contact">Contact</a></li>
-            </ul>
-        </nav>
-    </header>
-    <main>
-        <section id="accueil">
-            <p>Bienvenue sur mon portfolio, je suis</p>
-            <h1>Eloïme Melane BENKOUNDA</h1>
-            <h2>Étudiante en informatique</h2>
-            <p>Je suis passionnée par l'informatique et je souhaite développer mes compétences dans ce domaine.</p>
-            <a href="#projets">Voir mes projets</a>
+    <main class="page">
+        <section class="accueil">
+            <p class="petit--message">Une petite surprise pour toi...</p>
+            <h1>Pour mon Alpha 💖</h1>
+            <p class="anniversaire">Joyeux 33e anniversaire 🎂</p>
+            <div class="enveloppe"> 💌</div>
+            <button id="ouvrirLettre">Ouvrir ma lettre✨</button>
         </section>
 
-        <section id="apropos">
-            <h2>À propos de moi</h2>
-            <p>Je suis une étudiante en informatique. J'aime apprendre, créer des projets et developper mes compétences dans ce domaine.</p>
-            <button id="btnPlus">En savoir plus</button>
-            <div id="message" style="display: none;">
-                <p>Je suis passionnée par l'informatique et je souhaite développer mes compétences dans ce domaine.</p>
+        <section id="lettre" class="lettre-cachee">
+            <div class="lettre-contenu">  <p>À mon Alpha,</p>
+
+                <p>
+                    Aujourd'hui est un jour très spécial,
+                    parce qu'aujourd'hui, je célèbre une femme
+                    qui occupe une place unique dans ma vie :
+                    ma grande sœur. ❤️
+                </p>
+
+                <p>
+                    33 ans de vie, de force, de sourires,
+                    de combats, de souvenirs et de belles choses
+                    à venir...
+                </p>
+
+                <p>
+                    Je veux simplement te rappeler à quel point
+                    tu es précieuse pour moi.
+                </p>
+
+                <p class="signature">
+                    Avec tout mon amour ❤️<br>
+                    Ta petite sœur
+                </p>
+
             </div>
+
         </section>
 
-        <section id="competences">
-            <h2>Compétences</h2>
-
-            <div class="competences-container">
-                <div class="competence">
-                    <h3>HTML</h3>
-                    <p>J'ai une bonne maîtrise de HTML pour structurer les pages web.</p>
-                </div>
-                <div class="competence">
-                    <h3>CSS</h3>
-                    <p>J'ai une bonne maîtrise de CSS pour styliser les pages web.</p>
-                </div>
-                <div class="competence">
-                    <h3>JavaScript</h3>
-                    <p>J'ai une bonne maîtrise de JavaScript pour ajouter de l'interactivité aux pages web.</p>
-                </div>
-            </div>
-        </section>
-
-        <section id="projets">
-            <h2>Mes projets</h2>
-
-            <div class="projets-container">
-                <article class="projet">
-                    <h3>Portfolio</h3>
-                    <p>Mon portfolio personnel pour présenter mes compétences et mes projets.</p>
-                </article>
-            <article class="projet">
-                <h3>Nzila-Artisan</h3>
-                <p>Une plateforme permettant de découvrir des artisans et leurs services.</p>
-            </article>
-            
-            <article class="projet">
-                <h3>Projets en C</h3>
-                <p>Differents exercices et programmes réalisés dans le cadre de ma formation.</p>
-            </article>
-        </section>
-
-        <div>
-            <img src="images/Elo.jpeg" alt="Photo de Eloïme Melane BENKOUNDA">
-        </div>
-
-        <section id="contact">
-            <h2>Contactez-moi</h2>
-            <form id="contactForm">
-                <input type="text" id="nom" name="nom" placeholder="Votre nom" required>
-                <input type="email" id="email" name="email" placeholder="Votre email" required>
-                <textarea id="messageContact" placeholder="Votre message" required></textarea>
-                <button type="submit">Envoyer</button>
-                <p id="confirmation"></p>
-            </form>
-        </section>
     </main>
-<footer>
-        <p>&copy; 2026 Eloïme Melane BENKOUNDA. Tous droits réservés.</p>
-</footer>
-<button id="btnTop">↑</button>
-<script src="script.js"></script>
+
+    <script src="script.js"></script>
+
 </body>
+
 </html>
